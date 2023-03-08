@@ -1,21 +1,3 @@
-let age = 32;
-let userName = 'Max';
-let hobbies = ['Sports', 'Cooking', 'Reading'];
-let job = { 
-    tittle: 'Developer', 
-    place: 'New York', 
-    salary : 50000
-};
-let totalAdultYears;
+document.body.children[1].children[0].href = "https://www.youtube.com";
 
-function calcultateAdultYears( ) {
-    return age - 18;
-}
-
-totalAdultYears = calcultateAdultYears();
-alert(totalAdultYears);
-
-age = 45;
-calcultateAdultYears();
-
-alert(totalAdultYears);
+// console.dir(document);
