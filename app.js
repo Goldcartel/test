@@ -1,3 +1,14 @@
-document.body.children[1].children[0].href = "https://www.youtube.com";
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
 
-// console.dir(document);
+
+function onLoginSubmit(event) {
+    event.preventDefault();
+    console.log(loginInput.value);
+}
+
+loginForm.addEventListener("submit", onLoginSubmit);
+
+
+
+
